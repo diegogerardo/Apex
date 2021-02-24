@@ -14,3 +14,6 @@ Evento: Selection Change
  this.data.model.getValue(
     this.data.selectedRecords[0], "CAMPOAQUI" /* Este es el campo de la grilla que se asigna al item*/
     ) : ""
+
+
+    
