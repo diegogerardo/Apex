@@ -1,0 +1,5 @@
+select SEC_NOMBRE ||' - '|| CEC_NOMBRE  as d,
+       SEC_ID AS r 
+FROM SECTORES, CENTROS_COSTOS
+WHERE CEC_ID = SEC_CEC_ID
+order by 1
